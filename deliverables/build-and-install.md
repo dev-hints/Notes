@@ -53,11 +53,28 @@ The compiled APK will be generated at:
 - `app/build/outputs/apk/debug/app-debug.apk`
 - Ready-to-install deliverable copy: `deliverables/NotesByStrangeInfinity-debug.apk` (18 MB)
 
-### 3.2. Clean Build (Optional)
+### 3.2. Build Signed Release APK
+Run the Gradle wrapper with the release assembly task:
+
+```bash
+./gradlew assembleRelease
+```
+
+The signed release APK will be generated at:
+- `app/build/outputs/apk/release/app-release.apk`
+- Ready-to-install deliverable copy: `deliverables/NotesByStrangeInfinity-release.apk` (12 MB)
+
+Verify APK signing with Android `apksigner`:
+
+```bash
+apksigner verify --verbose deliverables/NotesByStrangeInfinity-release.apk
+```
+
+### 3.3. Clean Build (Optional)
 If switching branches or cleaning build caches:
 
 ```bash
-./gradlew clean assembleDebug
+./gradlew clean assembleDebug assembleRelease
 ```
 
 ---

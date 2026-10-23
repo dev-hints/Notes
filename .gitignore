@@ -4,9 +4,10 @@
 *.dex
 *.class
 
-# Allow the deliverable debug APK
+# Allow the deliverable APKs
 *.apk
 !deliverables/NotesByStrangeInfinity-debug.apk
+!deliverables/NotesByStrangeInfinity-release.apk
 
 # Generated files
 bin/
@@ -53,6 +54,7 @@ Thumbs.db
 *.jks
 *.keystore
 signing.properties
+keystore.properties
 
 # Secrets, environment, and personal files
 .env
