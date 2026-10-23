@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Soft Drop Shadow Under Notepad -->
+    <path
+        android:fillColor="#350F172A"
+        android:pathData="M39,28 L69,28 A7,7 0 0,1 76,35 L76,77 A7,7 0 0,1 69,84 L39,84 A7,7 0 0,1 32,77 L32,35 A7,7 0 0,1 39,28 Z" />
+
+    <!-- Back Page (Paper Stack Layer) -->
+    <path
+        android:fillColor="#E0E7FF"
+        android:pathData="M40,25 L68,25 A7,7 0 0,1 75,32 L75,74 A7,7 0 0,1 68,81 L40,81 A7,7 0 0,1 33,74 L33,32 A7,7 0 0,1 40,25 Z" />
+
+    <!-- Main White Note Page -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M38,24 L66,24 A7,7 0 0,1 73,31 L73,73 A7,7 0 0,1 66,80 L38,80 A7,7 0 0,1 31,73 L31,31 A7,7 0 0,1 38,24 Z" />
+
+    <!-- Note Header Bar (Indigo) -->
+    <path
+        android:fillColor="#4338CA"
+        android:pathData="M38,24 L66,24 A7,7 0 0,1 73,31 L73,37 L31,37 L31,31 A7,7 0 0,1 38,24 Z" />
+
+    <!-- Three Gold Binder Rings across the top -->
+    <!-- Ring 1 -->
+    <path
+        android:fillColor="#FCD34D"
+        android:pathData="M37.5,21.5 L40.5,21.5 A1.5,1.5 0 0,1 42,23 L42,27 A1.5,1.5 0 0,1 40.5,28.5 L37.5,28.5 A1.5,1.5 0 0,1 36,27 L36,23 A1.5,1.5 0 0,1 37.5,21.5 Z" />
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M36,23 L39,23 L39,27 L36,27 Z" />
+
+    <!-- Ring 2 -->
+    <path
+        android:fillColor="#FCD34D"
+        android:pathData="M50.5,21.5 L53.5,21.5 A1.5,1.5 0 0,1 55,23 L55,27 A1.5,1.5 0 0,1 53.5,28.5 L50.5,28.5 A1.5,1.5 0 0,1 49,27 L49,23 A1.5,1.5 0 0,1 50.5,21.5 Z" />
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M49,23 L52,23 L52,27 L49,27 Z" />
+
+    <!-- Ring 3 -->
+    <path
+        android:fillColor="#FCD34D"
+        android:pathData="M63.5,21.5 L66.5,21.5 A1.5,1.5 0 0,1 68,23 L68,27 A1.5,1.5 0 0,1 66.5,28.5 L63.5,28.5 A1.5,1.5 0 0,1 62,27 L62,23 A1.5,1.5 0 0,1 63.5,21.5 Z" />
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M62,23 L65,23 L65,27 L62,27 Z" />
+
+    <!-- Row 1: Checklist Checkbox (Emerald) + Line (Slate 500) -->
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M38,43 L41,43 A2,2 0 0,1 43,45 L43,48 A2,2 0 0,1 41,50 L38,50 A2,2 0 0,1 36,48 L36,45 A2,2 0 0,1 38,43 Z" />
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M37.8,46.5 L39.5,48.2 L41.8,45" />
+    <path
+        android:fillColor="#64748B"
+        android:pathData="M47.5,45 L66.5,45 A1.5,1.5 0 0,1 68,46.5 A1.5,1.5 0 0,1 66.5,48 L47.5,48 A1.5,1.5 0 0,1 46,46.5 A1.5,1.5 0 0,1 47.5,45 Z" />
+
+    <!-- Row 2: Bullet Dot (Indigo 500) + Line (Slate 400) -->
+    <path
+        android:fillColor="#6366F1"
+        android:pathData="M39.5,53.5m-2,0a2,2 0 1,1 4,0a2,2 0 1,1 -4,0" />
+    <path
+        android:fillColor="#94A3B8"
+        android:pathData="M47.5,54 L63.5,54 A1.5,1.5 0 0,1 65,55.5 A1.5,1.5 0 0,1 63.5,57 L47.5,57 A1.5,1.5 0 0,1 46,55.5 A1.5,1.5 0 0,1 47.5,54 Z" />
+
+    <!-- Row 3: Bullet Dot (Cyan 500) + Line (Slate 300) -->
+    <path
+        android:fillColor="#06B6D4"
+        android:pathData="M39.5,62.5m-2,0a2,2 0 1,1 4,0a2,2 0 1,1 -4,0" />
+    <path
+        android:fillColor="#CBD5E1"
+        android:pathData="M47.5,63 L57.5,63 A1.5,1.5 0 0,1 59,64.5 A1.5,1.5 0 0,1 57.5,66 L47.5,66 A1.5,1.5 0 0,1 46,64.5 A1.5,1.5 0 0,1 47.5,63 Z" />
+
+    <!-- Stylus Cast Shadow -->
+    <path
+        android:fillColor="#250F172A"
+        android:pathData="M58,78 L61,81 L83,59 L80,56 Z" />
+
+    <!-- Stylus Tip (Gold #F59E0B) pointing at (55,75) -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M55,75 L58.5,69 L63.5,74 Z" />
+    <path
+        android:fillColor="#D97706"
+        android:pathData="M55,75 L61,71.5 L63.5,74 Z" />
+
+    <!-- Stylus Grip Ring (Cosmic Cyan #06B6D4) -->
+    <path
+        android:fillColor="#06B6D4"
+        android:pathData="M58.5,69 L63.5,74 L65.5,72 L60.5,67 Z" />
+
+    <!-- Stylus Barrel (Midnight Indigo #1E1B4B) -->
+    <path
+        android:fillColor="#1E1B4B"
+        android:pathData="M60.5,67 L65.5,72 L80.5,57 L75.5,52 Z" />
+
+    <!-- Stylus Highlight (Indigo 500 #6366F1) -->
+    <path
+        android:fillColor="#818CF8"
+        android:pathData="M60.5,67 L63,69.5 L78,54.5 L75.5,52 Z" />
+
+    <!-- Stylus Top Cap (Soft Lavender #E0E7FF) -->
+    <path
+        android:fillColor="#E0E7FF"
+        android:pathData="M75.5,52 L80.5,57 L82.5,55 L77.5,50 Z" />
+</vector>
